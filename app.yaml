@@ -9,11 +9,7 @@ handlers:
 - url: /process.php
   script: process.php
 
-- url: /index.php
-  script: index.php
-
-
 - url: /.*
-  script: helloworld.html
+  script: index.php
   
 
