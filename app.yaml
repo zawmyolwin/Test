@@ -1,0 +1,15 @@
+application: CapitalKnowledge
+version: 1
+runtime: php
+api_version: 1
+threadsafe: true
+
+handlers:
+
+- url: /helloworld.html
+  script: helloworld.html
+  
+- url: /.*
+  script: helloworld.html
+  
+
