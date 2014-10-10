@@ -10,6 +10,6 @@ handlers:
   script: process.php
 
 - url: /.*
-  script: index.php
+  script: helloworld.html
   
 
